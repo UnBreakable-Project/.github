@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 450" role="img" aria-labelledby="title desc">
+  <title id="title">Terminal do UnBreakable</title>
+  <desc id="desc">Comandos animados apresentam o grupo de estudos UnBreakable e revelam um lobo em ASCII.</desc>
+  <style>
+    .terminal { fill: #080510; stroke: #562197; stroke-width: 2; }
+    .bar { fill: #171027; }
+    .text { font: 18px 'IBM Plex Mono', 'DejaVu Sans Mono', monospace; dominant-baseline: hanging; }
+    .prompt { fill: #71d66d; }
+    .command, .output { fill: #f7f3ff; }
+    .muted { fill: #c8bed9; }
+    .ascii { fill: #262334; font: 8px 'IBM Plex Mono', 'DejaVu Sans Mono', monospace; dominant-baseline: hanging; }
+    .ascii-purple { fill: #8437d9; }
+    .ascii-pink { fill: #bd66d8; }
+    .ascii-green { fill: #46ef0f; }
+    .line { clip-path: inset(0 100% 0 0); }
+    .l1 { animation: type1 12s linear infinite; }
+    .l2 { animation: type2 12s linear infinite; }
+    @keyframes type1 { 0%, 4% { clip-path: inset(0 100% 0 0); } 16%, 100% { clip-path: inset(0 0 0 0); } }
+    @keyframes type2 { 0%, 21% { clip-path: inset(0 100% 0 0); } 88%, 100% { clip-path: inset(0 0 0 0); } }
+  </style>
+  <rect class="terminal" x="1" y="1" width="778" height="448" rx="16" />
+  <path class="bar" d="M17 2h746a15 15 0 0 1 15 15v36H2V17A15 15 0 0 1 17 2Z" />
+  <circle cx="30" cy="28" r="7" fill="#ff6b6b" />
+  <circle cx="54" cy="28" r="7" fill="#ffd166" />
+  <circle cx="78" cy="28" r="7" fill="#71d66d" />
+  <text class="text muted" x="110" y="18">unbreakable@unb — zsh</text>
+  <g class="line l1">
+    <text class="text prompt" x="28" y="78">unbreakable@unb:~$</text>
+    <text class="text command" x="251" y="78">cat unbreakable-wolf.ascii</text>
+  </g>
+  <g class="line l2">
+    <text class="ascii" fill="#262334" x="198" y="110" xml:space="preserve">
+      <tspan x="198" y="110">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="118">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#8437d9">%</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="126">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#8437d9">#</tspan><tspan fill="#46ef0f">=</tspan>@<tspan fill="#8437d9">#</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@<tspan fill="#46ef0f">:</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="134">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=-</tspan>@@<tspan fill="#8437d9">###</tspan>@@@@@@@@@@@<tspan fill="#46ef0f">-</tspan><tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="142">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@@@<tspan fill="#8437d9">###</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@<tspan fill="#46ef0f">-</tspan><tspan fill="#8437d9">#</tspan>@@<tspan fill="#8437d9">#</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="150">@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@@@@@<tspan fill="#8437d9">####</tspan>@@@@@<tspan fill="#8437d9">##</tspan>@@@@@<tspan fill="#8437d9">#</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="158">@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=-</tspan>@@@@@@@<tspan fill="#8437d9">####</tspan><tspan fill="#bd66d8">*</tspan>@@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="166">@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@<tspan fill="#8437d9">######%</tspan>@@@@@@@<tspan fill="#8437d9">##</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="174">@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@@@@<tspan fill="#8437d9">##</tspan>@@<tspan fill="#8437d9">##########</tspan><tspan fill="#46ef0f">=</tspan>@@<tspan fill="#8437d9">##</tspan><tspan fill="#46ef0f">-</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="182">@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@<tspan fill="#8437d9">#</tspan>@@@@<tspan fill="#8437d9">###</tspan>@<tspan fill="#8437d9">############</tspan><tspan fill="#46ef0f">-</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="190">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#8437d9">##################</tspan><tspan fill="#46ef0f">-</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="198">@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#8437d9">#</tspan>@@@@@@@@@@@@<tspan fill="#8437d9">##################</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="206">@@@@@@@@@@@@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@@<tspan fill="#8437d9">####%##############</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="214">@@@@@@@@@@@@@@@@@@<tspan fill="#bd66d8">*</tspan><tspan fill="#8437d9">##</tspan>@@@@@@@@@@@<tspan fill="#8437d9">##########</tspan>@@@@@@<tspan fill="#8437d9">#######</tspan>@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="222">@@@@@@@@@@@@@@@@@<tspan fill="#bd66d8">*</tspan><tspan fill="#8437d9">##</tspan>@@@@@@@@@<tspan fill="#8437d9">###############</tspan>@@<tspan fill="#46ef0f">==-</tspan>@<tspan fill="#8437d9">#####</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="230">@@@@@@@@@@@@@@@<tspan fill="#bd66d8">**</tspan><tspan fill="#8437d9">#%</tspan>@@@@@@@@<tspan fill="#8437d9">#%</tspan>@@@@@<tspan fill="#8437d9">############</tspan>@@@@@@<tspan fill="#8437d9">####</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="238">@@@@@@@@@@@@@<tspan fill="#bd66d8">**</tspan><tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@@@@@@@@<tspan fill="#bd66d8">******</tspan><tspan fill="#8437d9">##########</tspan>@<tspan fill="#8437d9">####</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="246">@@@@@@@@@@@<tspan fill="#bd66d8">**</tspan><tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@@@@@@<tspan fill="#bd66d8">******************</tspan><tspan fill="#8437d9">#########</tspan><tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="254">@@@@@@@@@@<tspan fill="#bd66d8">*</tspan><tspan fill="#8437d9">##</tspan>@@@@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@<tspan fill="#bd66d8">***********************</tspan><tspan fill="#8437d9">########</tspan><tspan fill="#46ef0f">==</tspan>@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="262">@@@@@@@@@@@@@@@@@@@@<tspan fill="#bd66d8">*</tspan>@@@@@@@@<tspan fill="#bd66d8">****</tspan>@@@@@@@@@@@@<tspan fill="#8437d9">%</tspan><tspan fill="#bd66d8">**********</tspan><tspan fill="#8437d9">########</tspan><tspan fill="#46ef0f">==</tspan>@@@@@@@@@@</tspan>
+      <tspan x="198" y="270">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@<tspan fill="#bd66d8">*</tspan>@<tspan fill="#46ef0f">===</tspan>@@@<tspan fill="#bd66d8">*</tspan>@@@@@@@@@@@@@@@@@@@@@<tspan fill="#bd66d8">*********</tspan><tspan fill="#8437d9">###</tspan>@@@@<tspan fill="#46ef0f">-</tspan>@@@@@@@@@</tspan>
+      <tspan x="198" y="278">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#bd66d8">*</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@@@@<tspan fill="#8437d9">#</tspan><tspan fill="#bd66d8">*********</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@</tspan>
+      <tspan x="198" y="286">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#bd66d8">*</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@<tspan fill="#8437d9">#</tspan>@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan><tspan fill="#8437d9">%</tspan>@@@@@@@@@@@</tspan>
+      <tspan x="198" y="294">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#bd66d8">*</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="302">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#bd66d8">*</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="310">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#bd66d8">*</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@<tspan fill="#8437d9">##%</tspan>@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="318">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#46ef0f">-</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@<tspan fill="#8437d9">##</tspan>@@@@@@@<tspan fill="#46ef0f">-</tspan>@@<tspan fill="#46ef0f">-=</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="326">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@<tspan fill="#8437d9">#</tspan>@@@@@@@<tspan fill="#46ef0f">==</tspan>@<tspan fill="#46ef0f">=</tspan><tspan fill="#8437d9">#</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="334">@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@<tspan fill="#8437d9">#</tspan>@@@@@@<tspan fill="#46ef0f">====</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="342">@@@@@@@@@@@@@@@<tspan fill="#8437d9">%</tspan><tspan fill="#46ef0f">==</tspan>@@<tspan fill="#46ef0f">+</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">===</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="350">@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">+</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#46ef0f">=</tspan>@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">===</tspan>@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="358">@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">+</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#46ef0f">=</tspan>@@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="366">@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="374">@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#46ef0f">=</tspan>@@@@@<tspan fill="#8437d9">#%</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="382">@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">-==</tspan>@@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#8437d9">#%</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="390">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">=</tspan>@@@@<tspan fill="#8437d9">#%</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="398">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<tspan fill="#46ef0f">==</tspan>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+      <tspan x="198" y="406">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+  </g>
+</svg>
